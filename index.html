@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Bài 2.1 - Breadcrumb</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .breadcrumb {
+      font-size: 18px;
+    }
+    .breadcrumb a {
+      text-decoration: none;
+      color: #0066cc;
+    }
+    .breadcrumb a:hover {
+      text-decoration: underline;
+    }
+    .breadcrumb span {
+      margin: 0 5px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h2>Đường dẫn chuyên mục:</h2>
+  <nav class="breadcrumb">
+    <a href="#">Trang chủ</a>
+    <span>&gt;</span>
+    <a href="#">Thư viện</a>
+    <span>&gt;</span>
+    <a href="#">Giáo trình</a>
+    <span>&gt;</span>
+    <a href="#">Thiết kế giao diện Web</a>
+  </nav>
+</body>
+</html>
